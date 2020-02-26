@@ -21,7 +21,7 @@ public class InicioApp {
         
 		InicioApp ia = new InicioApp();
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Introduzca un conjunto de caracteres");
+		System.out.println("Introduzca conjunto de caracteres");
 		String frase = sc.nextLine();
 		ia.contarPalabras(frase);
 		ia.mostrarResultado();
